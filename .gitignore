@@ -1,0 +1,58 @@
+# =========================================================
+# TOQUE SUPREMO - Godot 4
+# =========================================================
+
+# --- Caché y datos generados por Godot (se regeneran solos) ---
+.godot/
+*.translation
+.mono/
+mono_crash.*.json
+
+# --- Credenciales y firma de Android (NUNCA subir) ---
+export_credentials.cfg
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+signing.properties
+google-services.json
+.env
+.env.*
+*.secret
+*.token
+secrets/
+credentials.json
+
+# --- Compilaciones y exportaciones ---
+*.apk
+*.aab
+*.idsig
+build/
+builds/
+export/
+exports/
+android/build/
+
+# --- Archivos temporales y de respaldo ---
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+*.log
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Configuración personal de editores ---
+.idea/
+*.code-workspace
+
+# --- Se versionan a propósito (NO ignorar) ---
+# export_presets.cfg  -> configuración de exportación
+# *.uid               -> identificadores de Godot 4.4+
